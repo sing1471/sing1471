@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+  }
+/* selecting header and footer elemnts */
+header,
+footer {
+    background-color: rgb(0, 191, 255);
+  }
+/* selecting class */
+.site-title {
+    color: white;
+  }
+ 
+
+/* adding box blur to image */
+ #my-image{
+    box-shadow: 0px 0px 2px 2px black;
+ }
+ /* removing style and decorations from links */
+ nav ul {
+    list-style: none;
+  }
+/* replacing the bullets with square */
+#hobbies{
+    list-style: square;
+}
+/* using :nth-child selector */
+#hobbies:nth-child(odd) {
+    background-color: rgb(0, 191, 255);
+  }
+/* Changing the background colour on hover or focus state of the link */
+nav a {
+    padding: 5px;
+   text-decoration: none;
+   background-color: orange;
+   color: white;
+   border-radius: 12px;
+}
+
+nav ul a:hover,
+nav ul a:focus {
+    background-color: rgb(255, 72, 0);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+/* replacing  */
