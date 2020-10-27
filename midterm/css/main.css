@@ -1,0 +1,52 @@
+body {
+    font-family: arial;
+    background-color: #aad4cf;
+}
+
+* { 
+margin: 0;
+padding: 0;
+}
+
+.container {
+    position: relative;
+    width:90%;
+    margin: 0 auto;
+}
+.container img {
+    width: 100%;
+}
+
+#site-title {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
+
+nav ul li {
+    clear: both;
+    display: inline-block;
+    margin: 0;
+    width: 33%;
+    padding: 0;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    text-align: center;
+  }
+
+  nav ul a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+
+  nav ul li:last-child {
+    border: none;
+
+  }
+
+  article img {
+      width: 18%;
+  }
