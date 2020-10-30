@@ -1,19 +1,15 @@
 body {
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
-}
-
-* { 
-margin: 0;
-padding: 0;
 }
 
 .container {
     position: relative;
     width:90%;
     margin: 0 auto;
+    background-color: #d4e9e7;
 }
-.container img {
+#my-image {
     width: 100%;
 }
 
@@ -21,32 +17,69 @@ padding: 0;
     position: absolute;
     color: white;
     width: 100%;
-    top: 50%;
+    margin-top: -15%;
     text-align: center;
+    margin-bottom: 0;
+
+}
+nav ul{
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-    clear: both;
     display: inline-block;
-    margin: 0;
     width: 33%;
-    padding: 0;
     box-sizing: border-box;
     border-right: 1px solid black;
     text-align: center;
+
   }
 
+nav {
+    margin-bottom: 1em;
+}
   nav ul a {
     display: block;
     text-decoration: none;
     color: black;
-  }
+}
 
   nav ul li:last-child {
     border: none;
-
-  }
+}
 
   article img {
-      width: 18%;
-  }
+      width: 14%;
+      float: left;
+      margin-right: 1em;
+      margin-bottom: 1em;
+}
+p{
+  padding: 0.5em;
+}
+#contact{
+  padding: 1em;
+  border: 1px solid black;
+}
+
+input[type="text"],input[type="email"],input[type="message"],textarea{
+  width: 100%;
+  margin: 0.5em auto;
+}
+
+button {
+  border: 1px solid black;
+  margin: 0.5em auto;
+  padding: 1em;
+  background-color: #d4e9e7;
+}
+.spacing
+{
+  padding:0.5em;
+}
+footer {
+  text-align:  right;
+  padding: 1em;
+  margin : 1em;
+}
