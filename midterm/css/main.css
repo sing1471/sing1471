@@ -1,18 +1,21 @@
+/* to add background color and change font of whole web page */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
 }
 
+/* algining all content of webpage to center and different bakground adding background color */
 .container {
     position: relative;
     width:90%;
     margin: 0 auto;
     background-color: #d4e9e7;
 }
+
 #my-image {
     width: 100%;
 }
-
+/* wrapping text over image */
 #site-title {
     position: absolute;
     color: white;
@@ -20,13 +23,13 @@ body {
     margin-top: -15%;
     text-align: center;
     margin-bottom: 0;
-
 }
+/* removing unwanted margin & padding */
 nav ul{
   padding: 0;
   margin: 0;
 }
-
+/* to make nav bar horizontal */
 nav ul li {
     display: inline-block;
     width: 33%;
@@ -35,51 +38,57 @@ nav ul li {
     text-align: center;
 
   }
-
+/* adding margin at bottom to nav bar */
 nav {
     margin-bottom: 1em;
 }
+/* removing default decoration from anchor tag */
   nav ul a {
-    display: block;
     text-decoration: none;
     color: black;
 }
-
+/* to remove border from last child of nav bar */
   nav ul li:last-child {
     border: none;
 }
-
+/* wrapping text to right and adjusting size of image*/
   article img {
-      width: 14%;
+      width: 12%;
       float: left;
-      margin-right: 1em;
-      margin-bottom: 1em;
+      margin-right: 0.5Em;
+      margin-bottom: 0.5em;
 }
-p{
+/* p{
   padding: 0.5em;
-}
+} */
+/* to add border around contact */
 #contact{
   padding: 1em;
   border: 1px solid black;
 }
-
+/* to increase the width of text boxes and textarea */
 input[type="text"],input[type="email"],input[type="message"],textarea{
   width: 100%;
   margin: 0.5em auto;
 }
-
+/* to add border around submit button and changing the color of button */
 button {
   border: 1px solid black;
   margin: 0.5em auto;
   padding: 1em;
   background-color: #d4e9e7;
 }
+/* to add space between container and content expcept header section*/
 .spacing
 {
   padding:0.5em;
 }
+/* to align footer to left side */
 footer {
   text-align:  right;
   padding: 1em;
   margin : 1em;
+}
+footer a{
+  float:left;
 }
