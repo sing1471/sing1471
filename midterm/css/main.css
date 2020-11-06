@@ -46,10 +46,17 @@ nav {
   nav ul a {
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 /* to remove border from last child of nav bar */
   nav ul li:last-child {
     border: none;
+}
+nav ul a:hover {
+  font-size: 1em;
+  color:white;
+  background-color: black;
+  border-radius: 3px;;
 }
 /* wrapping text to right and adjusting size of image*/
   article img {
@@ -58,9 +65,9 @@ nav {
       margin-right: 0.5Em;
       margin-bottom: 0.5em;
 }
-/* p{
-  padding: 0.5em;
-} */
+article ul{
+  padding-inline-start: 1em;
+}
 /* to add border around contact */
 #contact{
   padding: 1em;
