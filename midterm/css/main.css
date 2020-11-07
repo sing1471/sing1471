@@ -47,6 +47,7 @@ nav {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    padding: 5px;
 }
 /* to remove border from last child of nav bar */
   nav ul li:last-child {
@@ -56,7 +57,7 @@ nav ul a:hover {
   font-size: 1em;
   color:white;
   background-color: black;
-  border-radius: 3px;;
+  border-radius: 1em;;
 }
 /* wrapping text to right and adjusting size of image*/
   article img {
