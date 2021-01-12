@@ -305,6 +305,8 @@ a{
   background-color: #222;
   color: rgb(255, 255, 255);
   margin: 0.5em;
+  text-align: center;
+
 }
 .btn2:hover,
 .btn2:focus {
@@ -369,7 +371,9 @@ input[type="message"],textarea{
 
 /* desktop css */
 @media screen and (min-width: 760px){
+  
   .nav-list{
+    align-items: center;
     display:grid;
     grid-template-columns:repeat(8, 1fr);
     grid-template-rows:repeat(1, 1fr);
@@ -412,6 +416,11 @@ input[type="message"],textarea{
 .about-section{
   display:flex;
   flex-wrap: wrap;
+}
+.btn2{
+  width:100%;
+  margin:1em auto;
+  box-sizing: border-box;
 }
 .about-section div:nth-child(1){
   flex-basis: 50%;
